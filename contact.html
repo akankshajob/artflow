@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Contact Us </title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/17922330f3.js" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <style media="screen">
+        /*@import url('https://fonts.googleapis.com/ css2?family=Poppins:wght@200;300;400;500;600;;700;800;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)100%), url(bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Josefin Sans';
+font-size: 52px;
+}
+
+.contact .content p{
+    font-weight: 300;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    width:100%;
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactinfo .boc .text{
+    display: flex;
+    margin-left: 20px;
+    font-size:16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: lightblue;
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.contatctform .inputBox input,
+.contactform .inputBox textarea{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid lightblue;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactform .inputBox input:focus~span,
+.contactform .inputBox input:valid~span,
+.contactform .inputBox textarea:focus~span
+/*.contactform .inputBox textarea:valid~span*/{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-20px);
+}
+
+.contact .inputBox input[type=submit]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border:  none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 500px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .contactinfo
+    {
+        width: 100%;
+    }
+}
+    </style>
+    </head>
+    <body>
+        <section class="contact">
+            <div class="content">
+                <h2> Contact Us </h2>
+                <p> We would love to respond to your queries and help you succeed. 
+                    Feel free to get in touch with us!
+                </p>
+            </div>
+            <form action="" method=""> 
+            <div class="container">
+                <div class="contactinfo"> 
+                    <div class="box">
+                        <div class="icon"> <i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3> Address </h3>
+                            <p> Indira College of Commerce and Science, <br> Dhruv Building, <br>
+                            Tathawde, Pune </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"> <i class="fa fa-mobile" aria-hidden="true"></i> </div>
+                        <div class="text">
+                            <h3> Phone </h3>
+                            <p> 983-773-9273 </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
+                        <div class="text">
+                            <h3> Email </h3>
+                            <p>ArtFlow@gmail.com </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform"> 
+                    <form>
+                        <h2> Send Message </h2>
+                        <br>
+                        <span> Full Name </span>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            
+                        
+                        <span> Email </span>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            
+                        
+                        <span> Type your Message...  </span>
+                        <div class="inputBox">
+                            <textarea required="required"> </textarea>
+                            
+                        
+                        <input type="submit" name="" value="Send">
+                        <div class="inputBox">
+                            
+                        
+                    </form>
+                </div>
+            </div>
+        </form>
+        </section>
+    </body>
+</html>
+

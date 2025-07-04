@@ -61,20 +61,6 @@ This system automates those tasks, empowering gallery administrators to focus on
 - LCD Monitor
 - Compatible keyboard and mouse
 
-## 📌 System Design
-
-- 📊 **Data Flow Diagram**  
-  Shows how user, admin, and database interact across the platform.
-  
-- 🗂️ **ER Diagram & Class Diagram**  
-  Structures the data entities and their relationships.
-  
-- 🎭 **Use Case Diagram**  
-  Highlights user interactions and system boundaries.
-
-- 🖼️ **UI Screens**  
-  Includes user registration, login, admin panel, artwork display, cart, and checkout pages.
-
 ## 🌟 Future Scope
 
 - 🎨 Local workshops and exhibitions to connect with the art community
@@ -100,4 +86,3 @@ AGMS aims to redefine how art galleries operate, offering a seamless, modern, an
 👩‍💻 Developed by:  
 Akanksha Job (A04)  
 
-📍 *Indira College of Commerce and Science, Pune*

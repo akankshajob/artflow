@@ -84,5 +84,5 @@ AGMS aims to redefine how art galleries operate, offering a seamless, modern, an
 ---
 
 👩‍💻 Developed by:  
-Akanksha Job (A04)  
+Akanksha Job  
 

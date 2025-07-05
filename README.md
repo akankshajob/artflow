@@ -1,6 +1,6 @@
 # 🎨 Art Gallery Management System
 
-The **Art Gallery Management System (AGMS)** is a comprehensive web-based application designed to transform and automate the operations of an art gallery. It provides a modern and efficient platform for managing artwork inventory, exhibitions, artist relations, and customer interactions.
+The **Art Gallery Management System (ArtFlow)** is a comprehensive web-based application designed to transform and automate the operations of an art gallery. It provides a modern and efficient platform for managing artwork inventory, exhibitions, artist relations, and customer interactions.
 
 ## 🚀 Project Objective
 
@@ -71,7 +71,7 @@ This system automates those tasks, empowering gallery administrators to focus on
 
 ## ✅ Conclusion
 
-AGMS aims to redefine how art galleries operate, offering a seamless, modern, and scalable experience for gallery staff, artists, and visitors alike. It promotes efficiency, better data management, and an enriched art-buying journey.
+AGMS ArtFlow aims to redefine how art galleries operate, offering a seamless, modern, and scalable experience for gallery staff, artists, and visitors alike. It promotes efficiency, better data management, and an enriched art-buying journey.
 
 ## 📚 References
 

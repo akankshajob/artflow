@@ -66,8 +66,6 @@ AGMS ArtFlow aims to redefine how art galleries operate, offering a seamless, mo
 - [W3Schools](https://www.w3schools.com)
 - [WebDevTrick PHP Cart](https://webdevtrick.com/php-shopping-cart-add-to-cart/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org)
-- [YouTube Tutorial 1](https://www.youtube.com/watch?v=GUcN9xRpO7U)
-- [YouTube Tutorial 2](https://www.youtube.com/watch?v=-aRRH0gZYQw)
 
 ---
 

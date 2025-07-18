@@ -48,18 +48,6 @@ This system automates those tasks, empowering gallery administrators to focus on
 | Database        | MySQL                    |
 | Hosting (Local) | XAMPP Server             |
 
-## 🖥️ System Requirements
-
-### Software
-- Windows 11 OS
-- XAMPP Server
-- Modern web browser
-
-### Hardware
-- AMD Ryzen 5 5500U processor (or equivalent)
-- 8GB RAM
-- LCD Monitor
-- Compatible keyboard and mouse
 
 ## 🌟 Future Scope
 
